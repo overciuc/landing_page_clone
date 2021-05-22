@@ -1,39 +1,72 @@
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import CreateWebsiteSection from './CreateWebsiteSection';
+import DesignSection from './DesignSection';
+import DevelopmentSection from './DevelopmentSection';
+import ExpertSection from './ExpertSection';
+import FeatureHeading from './FeatureHeading';
+import FooterNavTab from './FooterNavTab';
+import FooterSection from './FooterSection';
+import Header from './Header';
+import Heading from './Heading';
+import IntroSection from './IntroSection';
+import MarketingSection from './MarketingSection';
+import MoreResourcesSection from './MoreResourceSection';
+import PhenomenonHeadingSection from './PhenomenonHeading';
+import PopupBuilderSection from './PopupBuilderSection';
+import SignUpSection from './SignUp';
+import ThemeBuilderSection from './ThemeBuilder';
+import UserCommentSection from './UserCommentSection';
+import VideoSection from './VideoSection';
+import WidgetSection from './WidgetSection';
+import WordpressEcosystemSection from './WordpressEcosystem';
+import WordpressSection from './WordpressSection';
 
-const backgroundStyles = css`
-  background-color: #000000;
-`;
+const mainStyles = css`
+  position: relative;
+  z-index: 200;
+  margin-top: 200px;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
 
-const div = css`
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  box-shadow: inset 0 0 50px #fff, /* inner white */ inset 20px 0 80px #f0f,
-    /* inner left magenta short */ inset -20px 0 80px #0ff,
-    /* inner right cyan short */ inset 20px 0 300px #f0f,
-    /* inner left magenta broad */ inset -20px 0 300px #0ff,
-    /* inner right cyan broad */ 0 0 50px #fff,
-    /* outer white */ -10px 0 80px #f0f,
-    /* outer left magenta */ 10px 0 80px #0ff; /* outer right cyan */
+  > section {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 1300px;
+  }
 `;
 
 function App() {
   return (
     <>
-      <header></header>
-      <main css={backgroundStyles}>
-        <section>
-          <h1>Hello World!</h1>
-        </section>
-        <section>
-          <div css={div}></div>
-        </section>
-        <section></section>
-        <section></section>
-        <section></section>
+      <Header />
+
+      <main css={mainStyles}>
+        <IntroSection />
+        <VideoSection />
+        <Heading />
+        <DesignSection />
+        <MarketingSection />
+        <DevelopmentSection />
+        <CreateWebsiteSection />
+        <WordpressSection />
+        <UserCommentSection />
+        <ExpertSection />
+        <FeatureHeading />
+        <ThemeBuilderSection />
+        <PopupBuilderSection />
+        <WidgetSection />
+        <WordpressEcosystemSection />
+        <PhenomenonHeadingSection />
+        <MoreResourcesSection />
+        <SignUpSection />
+        <FooterSection />
       </main>
-      <footer></footer>
+
+      <FooterNavTab />
     </>
   );
 }
