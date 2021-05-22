@@ -95,7 +95,7 @@ const gradientBackground = css`
 export default function SignUpSection() {
   return (
     <>
-      <div css={gradientBackground}></div>
+      <div css={gradientBackground} />
       <section css={textBetweenContainer}>
         <h5>Get Started With Elementor Today</h5>
         <p>

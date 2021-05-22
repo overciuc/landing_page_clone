@@ -90,7 +90,7 @@ const copyRight = css`
 export default function FooterSection() {
   return (
     <>
-      <div css={gradientBackground}></div>
+      <div css={gradientBackground} />
       <section css={textBetweenContainer}>
         <div>
           <h5>FEATURES</h5>
@@ -218,7 +218,7 @@ export default function FooterSection() {
             Join our 2,153,054 newsletter subscribers amd get the latest news
             and articles sent straight to your inbox weekly
           </p>
-          <input placeholder="Enter your email Address" type="text"></input>
+          <input placeholder="Enter your email Address" type="text" />
           <button>Subscribe</button>
 
           <p>

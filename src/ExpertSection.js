@@ -106,7 +106,7 @@ const buttonStyle = (variant = 'empty') => css`
 export default function ExpertSection() {
   return (
     <>
-      <div css={gradientBackground}></div>
+      <div css={gradientBackground} />
 
       <section css={intermediateSectionsImageRight}>
         <div>

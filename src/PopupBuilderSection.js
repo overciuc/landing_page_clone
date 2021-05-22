@@ -68,29 +68,26 @@ const intermediateSectionsImageLeft = css`
 
 export default function PopupBuilderSection() {
   return (
-    <>
-      <section css={intermediateSectionsImageLeft}>
-        <div>
-          <div id="right">
-            <span>POPUP BUILDER</span>
-            <div>
-              Start Designing Amazing
-              <br />
-              WordPress Popups
-            </div>
-            <p>
-              Create popups that stand out yet are completely consistent with
-              the rest of your site design. Integrate content from WordPress
-              into your popups, to make them an integral part of your visitor's
-              experience.
-            </p>
-            <a href="#1">Learn More »</a>
+    <section css={intermediateSectionsImageLeft}>
+      <div>
+        <div id="right">
+          <span>POPUP BUILDER</span>
+          <div>
+            Start Designing Amazing
+            <br />
+            WordPress Popups
           </div>
-          <div id="left">
-            <img src={PopupImage} alt="Elementor Marketing" />
-          </div>
+          <p>
+            Create popups that stand out yet are completely consistent with the
+            rest of your site design. Integrate content from WordPress into your
+            popups, to make them an integral part of your visitor's experience.
+          </p>
+          <a href="#1">Learn More »</a>
         </div>
-      </section>
-    </>
+        <div id="left">
+          <img src={PopupImage} alt="Elementor Marketing" />
+        </div>
+      </div>
+    </section>
   );
 }

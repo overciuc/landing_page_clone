@@ -89,7 +89,7 @@ const gradientOverlayStyles = css`
 export default function Header() {
   return (
     <>
-      <div css={gradientOverlayStyles}></div>
+      <div css={gradientOverlayStyles} />
 
       <header css={headerStyles}>
         <div css={headerRightNavStyles}>

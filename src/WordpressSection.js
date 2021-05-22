@@ -49,14 +49,12 @@ const starSymbol = css`
 
 export default function WordpressSection() {
   return (
-    <>
-      <section css={wordpressArea}>
-        <div>
-          <h5>We're biased... Read what our users say</h5>
-          <p css={starSymbol}>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
-          <a href="#1">5 Stars Based on 5,269 Real User Reviews</a>
-        </div>
-      </section>
-    </>
+    <section css={wordpressArea}>
+      <div>
+        <h5>We're biased... Read what our users say</h5>
+        <p css={starSymbol}>&#9733; &#9733; &#9733; &#9733; &#9733;</p>
+        <a href="#1">5 Stars Based on 5,269 Real User Reviews</a>
+      </div>
+    </section>
   );
 }

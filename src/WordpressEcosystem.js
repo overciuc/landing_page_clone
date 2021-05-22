@@ -68,27 +68,25 @@ const intermediateSectionsImageLeft = css`
 
 export default function PopupBuilderSection() {
   return (
-    <>
-      <section css={intermediateSectionsImageLeft}>
-        <div>
-          <div id="right">
-            <span>WORDPRESS ECOSYSTEM</span>
-            <div>
-              Works Perfect With Any
-              <br />
-              Theme &amp; Plugin
-            </div>
-            <p>
-              Elementor works seamlessly with almost any WordPress theme and
-              plugin, so you can continue to use your favorite tools and take
-              your work to the next level.
-            </p>
+    <section css={intermediateSectionsImageLeft}>
+      <div>
+        <div id="right">
+          <span>WORDPRESS ECOSYSTEM</span>
+          <div>
+            Works Perfect With Any
+            <br />
+            Theme &amp; Plugin
           </div>
-          <div id="left">
-            <img src={EcosystemImage} alt="Elementor Marketing" />
-          </div>
+          <p>
+            Elementor works seamlessly with almost any WordPress theme and
+            plugin, so you can continue to use your favorite tools and take your
+            work to the next level.
+          </p>
         </div>
-      </section>
-    </>
+        <div id="left">
+          <img src={EcosystemImage} alt="Elementor Marketing" />
+        </div>
+      </div>
+    </section>
   );
 }

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/media-has-caption */
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
 import video from './images/Homepage_Main_Video.mp4';

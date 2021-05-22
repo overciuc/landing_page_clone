@@ -67,27 +67,25 @@ const intermediateSectionsImageLeft = css`
 
 export default function MarketingSection() {
   return (
-    <>
-      <section css={intermediateSectionsImageLeft}>
-        <div>
-          <div id="right">
-            <span>MARKETING</span>
-            <div>
-              Get More Traffic, Leads &amp;
-              <br />
-              Conversions
-            </div>
-            <p>
-              Design forms visually, integrate them with your favorite marketing
-              tools, and generate more traffic, leads &amp; conversions.
-            </p>
-            <a href="#1">Learn More »</a>
+    <section css={intermediateSectionsImageLeft}>
+      <div>
+        <div id="right">
+          <span>MARKETING</span>
+          <div>
+            Get More Traffic, Leads &amp;
+            <br />
+            Conversions
           </div>
-          <div id="left">
-            <img src={MarketingImage} alt="Elementor Marketing" />
-          </div>
+          <p>
+            Design forms visually, integrate them with your favorite marketing
+            tools, and generate more traffic, leads &amp; conversions.
+          </p>
+          <a href="#1">Learn More »</a>
         </div>
-      </section>
-    </>
+        <div id="left">
+          <img src={MarketingImage} alt="Elementor Marketing" />
+        </div>
+      </div>
+    </section>
   );
 }
